@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="desafio, imersão dev, js, alura">
+    <meta name="description" content="Desafio de conversão de moedas e bitcoin usando como base o dolar.">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Conversor Moedas</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de Dólar
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt="">
+    </div>
+    <h2>Desafio!</h2>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png">
+    </a>
+
+
+
+    <div class="conversor">
+
+        <label for="nomeUsuario">Nome:</label>
+        <input type="text" id="nomeUsuario" placeholder="Digite seu nome" required>
+
+        <label for="valorDolar">Conversor</label>
+        <input type="number" id="valorDolar" placeholder="Insira o valor em dólar:" required>
+
+        <label for="para">Para:</label>
+        <select id="para">
+            <option value="EUR">Euros (EUR)</option>
+            <option value="Reais">Reais (R$)</option>
+            <option value="ARS">Pesos Argentinos(ARS)</option>
+            <option value="IenesJP">Ienes Japoneses (JPY)</option>
+            <option value="SDG">Libras Sudanesa (SDG)</option>
+            <option value="BTC">Bitcoin</option>
+
+        </select>
+        <br>
+        <button onclick="converterMoeda()">Converter</button>
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

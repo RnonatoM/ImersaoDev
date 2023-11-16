@@ -1,0 +1,97 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body>img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  
+  }
+  
+  
+  h2 {
+    color: red;
+    background-color: yellow;
+    margin: 0 45% 0 45%;
+    border-radius: 20px 5px 20px 5px;
+    text-shadow: 1px 1px red, 2px 1px black;
+  
+  }
+  
+  label {
+    font-family: "Roboto Mono", monospace;
+    color: white;
+  
+  }
+  
+  label {
+    color: yellow;
+    font-family: "Roboto Mono", monospace;
+  
+  
+  }
+  
+  button {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px;
+    cursor: pointer;
+    background: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+  
+  
+  }
+  
+  button::after {
+    content: ' !';
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    display: none;
+  }
+  
+  button:hover::after {
+    display: inline;
+  }
+  
+  button:hover {
+    background: yellow;
+    color: black;
+  
+  }
