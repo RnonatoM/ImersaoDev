@@ -1,0 +1,57 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://super.abril.com.br/wp-content/uploads/2019/03/site_pesovialactea.png?w=720&h=440&crop=1");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body>img {
+    margin: 0 20px;
+}
+
+img {
+    max-height: 300px;
+}
+
+.anime-container {
+    display: inline-block;
+    margin-right: 10px;
+
+
+}
+
+h2 {
+    margin-top: 0;
+    color: white;
+    background: linear-gradient(to right, rgb(255, 0, 200), rgb(93, 0, 255));
+
+}
